@@ -1,0 +1,96 @@
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+ .navbar-brand {
+     font-size: 2rem;
+ }
+
+ .navbar-nav{
+    font-size: 1.25rem;
+ }
+
+.lead{
+    font-size: 1.5rem;
+    padding-right: 30px;
+}
+
+.hello{
+    font-size: 2rem;
+}
+.img-fluid{
+    height: 400px;
+    width: 400px;
+}
+
+.btn{
+    height: 3rem;
+    width: 8rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+.hello1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.about .row-1{
+ display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.img-fluid1{
+    height:400px;
+    width: 300px;
+    object-fit: cover;
+    border: 1rem solid rgb(192, 6, 68);
+    border-radius: .25rem;
+    box-shadow: 0 .25rem 1rem rgb(230, 178, 178);
+
+}
+
+.box-container{
+    color: white;
+    
+}
+
+.box-container .box p{
+    color: white;
+
+}
+
+.box-container h3{
+    font-size: 1.5rem;
+    font-family:cursive;
+    color:#ffcc00;
+}
+
+.box p{
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}

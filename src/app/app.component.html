@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!------------- <link rel="stylesheet" href="style.css"> ---->
+    <!------------- <link rel="stylesheet" href="app.component.css"> ---->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -19,8 +20,9 @@
 
 <body>
 
+
     <!------------NAVBAR-------------->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
             <a href="#" class="navbar-brand">Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -35,18 +37,19 @@
                         <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skill" class="nav-link">Skills</a>
+                        <a href="#skills" class="nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#project" class="nav-link">Projects</a>
+                        <a href="#works" class="nav-link">Works</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact Us</a>
+                        <a href="#contact" class="nav-link">Contact </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <!------------HOME SECTION------------->
 
@@ -77,6 +80,55 @@
             <h1 class="hello1">About
                 <span class="text-warning">Me</span>
             </h1>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid1" src="https://janani-ob.github.io/personal_portfolio/img/reading%20image.jpg"
+                        alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h3 class="sm-pt-3 text-sm-start" style=" font-size: 1.5rem;font-family: cursive;color: #ffcc00;">Education</h3>
+                    <div class="box text-sm-start">
+                        <p><i class='bx bx-book' style="color:#ffcc00"></i>
+                            <span> Schooling (2013 - 2020) ~ </span>
+                            <span>Rasi International School</span>
+                        </p>
+
+                        <p><i class='bx bx-book-open' style="color:#ffcc00"></i>
+                            <span> Web Development @ </span>
+                            <span>Spotknack Mission ~ 2021</span>
+                        </p>
+
+                        <p><i class='bx bxs-graduation' style="color:#ffcc00"></i>
+                            <span> B.E - CSE (2020 - 2024) ~ </span>
+                            <span>Dr.Mahalingam College of Engineering and Technology</span>
+                        </p>
+                    </div>
+                    <div class="box-container">
+                        <h3 class="pt-4"> Information</h3>
+                        <div class="box">
+                            <p><i class='bx bx-user' style="color:#ffcc00"></i>
+                                <span> Name : </span>
+                                <span> Janani</span>
+                            </p>
+
+                            <p><i class='bx bx-map' style="color:#ffcc00"></i>
+                                <span> Location : </span>
+                                <span> Namakkal</span>
+                            </p>
+
+                            <p> <i class='bx bx-envelope' style="color:#ffcc00"></i>
+                                <span> E-mail : </span>
+                                <span style="text-transform: lowercase;"> jananiob@gmail.com</span>
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <!----------
             <div class="d-sm-flex py-3">
                 <img class="img-fluid1 w-50"
                     src="https://janani-ob.github.io/personal_portfolio/img/reading%20image.jpg" alt="">
@@ -90,30 +142,30 @@
                             <span>Rasi International School</span>
                         </p>
 
-                        <p><i class='bx bx-book-open'style="color:#ffcc00"></i>
+                        <p><i class='bx bx-book-open' style="color:#ffcc00"></i>
                             <span> Web Development @ </span>
                             <span>Spotknack Mission ~ 2021</span>
                         </p>
 
-                        <p><i class='bx bxs-graduation'style="color:#ffcc00"></i>
-                            <span> B.E-CSE (2020- 2024) ~ </span>
+                        <p><i class='bx bxs-graduation' style="color:#ffcc00"></i>
+                            <span> B.E - CSE (2020 - 2024) ~ </span>
                             <span>Dr.Mahalingam College of Engineering and Technology</span>
                         </p>
                     </div>
                     <div class="box-container">
                         <h3 class="pt-4"> Information</h3>
                         <div class="box">
-                            <p><i class='bx bx-user'style="color:#ffcc00"></i>
+                            <p><i class='bx bx-user' style="color:#ffcc00"></i>
                                 <span> Name : </span>
                                 <span> Janani</span>
                             </p>
 
-                            <p><i class='bx bx-map'style="color:#ffcc00"></i>
+                            <p><i class='bx bx-map' style="color:#ffcc00"></i>
                                 <span> Location : </span>
                                 <span> Namakkal</span>
                             </p>
 
-                            <p> <i class='bx bx-envelope'style="color:#ffcc00"></i>
+                            <p> <i class='bx bx-envelope' style="color:#ffcc00"></i>
                                 <span> E-mail : </span>
                                 <span style="text-transform: lowercase;"> jananiob@gmail.com</span>
                             </p>
@@ -122,12 +174,229 @@
                     </div>
                 </div>
             </div>
+        -->
+            </div>
+
+
         </div>
     </section>
 
-    
+    <!----------------SKILLS SECTION------------------->
+    <section class="bg-dark text-light p-5 text-center text-sm-start" id="skills">
+        <div class="container">
+            <h1 class="hello1">My
+                <span class="text-warning">Skills</span>
+            </h1>
+            <h2 class="hello1">
+                <span class="text-warning">My</span> Expertise area
+            </h2>
 
-    
+            <div class="skills__content">
+                <h3 class="skills_subtitle text-warning text-center-sm" style="font-size: 2rem;">Frontend</h3>
+                <br>
+
+                <div class="skills__data">
+                    <span class="skills__name">HTML</span>
+                    <span class="skills__number" style="font-size: 1.5rem;">90%</span>
+                    <span class="skills__bar skills__html text-center-sm">
+                        <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+                    </span>
+
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">CSS</span>
+                    <span class="skills__number" style="font-size: 1.5rem;">75%</span>
+                    <span class="skills__bar skills__css text-center-sm">
+                        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
+                    </span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">SQL</span>
+                    <span class="skills__number" style="font-size: 1.5rem;">80%</span>
+                    <span class="skills__bar skills__sql text-center-sm">
+                        <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="skills_content">
+                <h3 class="skills_subtitle text-warning text-center-sm" style="font-size: 2rem;">Programming skills</h3>
+                <br>
+
+                <div class="skills__data">
+                    <span class="skills__name">C programming</span>
+                    <span class="skills__number" style="font-size: 1.5rem;">80%</span>
+                    <span class="skills__bar skills__c text-center-sm">
+                        <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+                    </span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Python programming</span>
+                    <span class="skills__number" style="font-size: 1.5rem;">85%</span>
+                    <span class="skills__bar skills__python text-center-sm">
+                        <mat-progress-bar mode="determinate" value="85"></mat-progress-bar>
+                    </span>
+                </div>
+                <div class="skills__data">
+                    <span class="skills__name">Java</span>
+                    <span class="skills__number" style="font-size: 1.5rem;">60%</span>
+                    <span class="skills__bar skills__java text-center-sm">
+                        <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-----------------WORKS SECTION---------------->
+
+    <section class="bg-dark text-light p-5 text-center text-sm-start" id="works">
+        <h1 class="hello1">My
+            <span class="text-warning">Portfolio</span>
+        </h1>
+        <h2 class="hello1">
+            <span class="text-warning">Recent</span> Works
+        </h2>
+
+        <div class="box-container1">
+            <div class="row">
+                <div class="col-md px-5 py-5">
+                    <div class="box">
+                        <img src="https://janani-ob.github.io/personal_portfolio/img/KFC.png" alt="">
+                        <h3>My first Webpage</h3>
+                        <div class="icons">
+                            <a href="#" class="fas fa-link"></a>
+                            <a href="#" class="fas fa-share"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md px-5 py-5">
+                    <div class="box">
+                        <img src="https://janani-ob.github.io/personal_portfolio/img/contact.png" alt="">
+                        <h3>YouTube Contact Us</h3>
+                        <div class="icons">
+                            <a href="#" class="fas fa-link"></a>
+                            <a href="#" class="fas fa-share"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md px-5 py-5">
+                    <div class="box">
+                        <img src="https://janani-ob.github.io/personal_portfolio/img/howitworks.png" alt="">
+                        <h3>How YouTube Works</h3>
+                        <div class="icons">
+                            <a href="#" class="fas fa-link"></a>
+                            <a href="#" class="fas fa-share"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md px-5 py-5">
+                    <div class="box">
+                        <img src="https://janani-ob.github.io/personal_portfolio/img/videospage.png" alt="">
+                        <h3>Subscription Page</h3>
+                        <div class="icons">
+                            <a href="#" class="fas fa-link"></a>
+                            <a href="#" class="fas fa-share"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------------CONTACT US SECTION----------------------->
+
+
+    <section class="bg-dark text-light p-5 text-center text-start-sm" id="contact">
+        <h1 class="hello1">Contact
+            <span class="text-warning">Me</span>
+        </h1>
+        <h2 class="hello1">
+            <span class="text-warning">Let's</span> Connect
+        </h2>
+        <div class="box-container">
+            <div class="row text-center">
+
+                <div class="col-md px-5 py-5">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <h3 class="card-title mb-3" style=" color:#2E3033; font-size: 2rem;">
+                                Name
+                            </h3>
+                            <b class="card-text">Janani.O.B</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md px-5 py-5">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <h3 class="card-title mb-3" style=" color:#2E3033; font-size: 2rem;">
+                                Email
+                            </h3>
+                            <b class="card-text" style="text-transform: lowercase;">jananiob@gmail.com</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md px-5 py-5">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center-sm">
+                            <div class="h1">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <h3 class="card-title mb-3" style=" color:#2E3033; font-size: 2rem;">
+                                Location
+                            </h3>
+                            <b class="card-text">Namakkal,Tamil Nadu</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <form class="example-form">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Name</mat-label>
+                        <input matInput placeholder="" value="">
+                    </mat-form-field>
+
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Email</mat-label>
+                        <input matInput placeholder="" value="">
+                    </mat-form-field>
+
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Contact Number</mat-label>
+                        <input matInput placeholder="" value="">
+                    </mat-form-field>
+
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Message</mat-label>
+                        <textarea matInput placeholder="Leave a message"></textarea>
+                    </mat-form-field>
+                    <button mat-raised-button color="primary" class="btn1"><a href="#">Send message</a></button>
+                </form>
+
+
+            </div>
+
+        </div>
 
 
 
@@ -135,6 +404,8 @@
 
 
 
+
+    </section>
 
 
 

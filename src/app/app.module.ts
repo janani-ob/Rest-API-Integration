@@ -12,10 +12,12 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatInputModule} from '@angular/material/input';
+import { PlayerListComponent } from './player-list/player-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PlayerListComponent
   ],
   imports: [
     BrowserModule,

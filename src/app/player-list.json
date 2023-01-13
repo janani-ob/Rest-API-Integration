@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Virat Kohli",
+        "age": 32,
+        "gender": "Male",
+        "status": "not-qualified"
+    },
+    {
+        "id": 2,
+        "name": "David Warner",
+        "age": 36,
+        "gender": "Male",
+        "status": "qualified"
+    },
+    {
+        "id": 3,
+        "name": "Hardik",
+        "age": 28,
+        "gender": "Male",
+        "status": "qualified"
+    },
+    {
+        "id": 4,
+        "name": "Bumrah",
+        "age": 27,
+        "gender": "Male",
+        "status": "qualified"
+    },
+    {
+        "id": 5,
+        "name": "Imran Tahir",
+        "age": 38,
+        "gender": "Male",
+        "status": "not-qualified"
+    },
+    {
+        "id": 6,
+        "name": "Kane Williamson",
+        "age": 30,
+        "gender": "Male",
+        "status": "qualified"
+    },
+    {
+        "id": 7,
+        "name": "Lasith Malinga",
+        "age": 39,
+        "gender": "Male",
+        "status": "not-qualified"
+    },
+    {
+        "id": 8,
+        "name": "Glen Maxwell",
+        "age": 34,
+        "gender": "Male",
+        "status": "not-qualified"
+    },
+    {
+        "id": 9,
+        "name": "Joe Root",
+        "age": 28,
+        "gender": "Male",
+        "status": "qualified"
+    },
+    {
+        "id": 10,
+        "name": "Jos Butler",
+        "age": 32,
+        "gender": "Male",
+        "status": "qualified"
+    }
+]

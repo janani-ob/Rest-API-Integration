@@ -15,14 +15,14 @@
     },
     {
         "id": 3,
-        "name": "Hardik",
+        "name": "Hardik Pandya",
         "age": 28,
         "gender": "Male",
         "status": "qualified"
     },
     {
         "id": 4,
-        "name": "Bumrah",
+        "name": "Jasprit Bumrah",
         "age": 27,
         "gender": "Male",
         "status": "qualified"

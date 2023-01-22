@@ -1,1 +1,14 @@
-<p>rest-api works!</p>
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Body</th>
+    </tr>
+
+    <tr *ngFor = "let id of getJsonValue; let i=index">
+        <td>{{i+1}}</td>
+        <td>{{id.name}}</td>
+        <td>{{id.body}}</td>
+
+    </tr>
+</table>

@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+    font-family: cursive;
+
+}
+
+th {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 12px;
+  }
+
+  td {
+    border: 2px solid black;
+    text-align: left;
+    font-size: 1.25rem;
+    padding: 12px;
+  }

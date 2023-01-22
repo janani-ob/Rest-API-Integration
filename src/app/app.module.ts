@@ -33,9 +33,7 @@ import { RestApiComponent } from './rest-api/rest-api.component';
     MatGridListModule,
     MatInputModule,
     HttpClientModule
-
-   
-
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -18,7 +19,7 @@ import { RestApiComponent } from './rest-api/rest-api.component';
 @NgModule({
   declarations: [
     AppComponent,
-    RestApiComponent
+    RestApiComponent,
   ],
   imports: [
     BrowserModule,
